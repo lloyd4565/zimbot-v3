@@ -69,9 +69,9 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
-global.reactmoji = '🇿🇼'
+botname = 'OPIUM BOT INC'
+wm = 'OPIUM BOT INC'
+global.reactmoji = '🇿🇦'
 limitCount = setting.limit
 
 //read database
@@ -132,7 +132,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const isWelcome = m.isGroup ? dripswelcome.includes(m.chat) : false
 //zim bot inc
 
-const timuu = moment.tz('Africa/Harare').format('HH:mm:ss')
+const timuu = moment.tz('Africa/Johannesburg').format('HH:mm:ss')
 const hariRaya = new Date('Apr 02, 2022 01:45:00')
 const sekarang = new Date().getTime();
 const Selisih = hariRaya - sekarang;
@@ -237,7 +237,7 @@ switch(hari) {
     if (isCmd) msgFilter.addFilter(from)
     
 // TIME 
-const time2 = moment().tz('Africa/Harare').format('HH:mm:ss')
+const time2 = moment().tz('Africa/Johannesburg').format('HH:mm:ss')
 if(time2 < "23:59:00"){
 var ucapannya2 = `Good Night 🌒`
 }
@@ -257,8 +257,8 @@ if(time2 < "05:00:00"){
 var ucapannya2 = `Good morning 🌅`
 }
 
-global.botdev = ['27634090203','447441437150']
-global.bothelp = ['918188019676']
+global.botdev = ['27799400929','27762323016']
+global.bothelp = ['2779400929']
 
 //function rpg
    const { 
