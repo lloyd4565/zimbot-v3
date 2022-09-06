@@ -37,8 +37,8 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['27799400929','27762323016']
-global.premium = ['27799400929','27762323016']
+global.owner = ['27799400929','27799498536']
+global.premium = ['27799400929','27799498536']
 global.botname = 'OPIUM BOT'
 global.ownername = 'mr lloyd'
 global.group1 = 'https://chat.whatsapp.com/IRbdcY5Kxr0IIxfWhlpfr4'
